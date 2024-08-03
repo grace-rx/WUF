@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>Meet the Team</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" >
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet" >
     <link href="styles.css" rel="stylesheet">
+    <link href="about.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
@@ -21,62 +22,77 @@
     });
     </script>
     <!--end of Navigation bar-->
-
-    <div id="about" class="container">
-        <div class="section bg-color-3">
-          <h2 class="text-center">Our Team</h2>
-          <p class="text-center">We United Foundation is currently active among schools across the east coast. Feel free to contact members to join WUF. Schools include Thomas Wootton High School, Winston Churchill, Holton-Arms School, The Bullis School, Montgomery Blair High School, Richard Montgomery High School, Robert Frost Middle School. </p>
-        </div>
-        <div class="section bg-color-5 bio-section">
-          <div class="row">
-            <h2 class="text-center col-12">Our Volunteers</h2>
-            <div class="col-12">
-              <ul>
-                <li>Holton-Arms School
-                  <ul>
-                    <li>Grace X, Catherine X</li>
-                  </ul>
-                </li>
-                <li>Montgomery Blair High School
-                  <ul>
-                    <li>Ethan L, Arthur W</li>
-                  </ul>
-                </li>
-                <li>Richard Montgomery High School
-                  <ul>
-                    <li>Sophia L, Henry P</li>
-                  </ul>
-                </li>
-                <li>Robert Frost Middle School
-                  <ul>
-                    <li>Jason X</li>
-                  </ul>
-                </li>
-                <li>The Bullis School
-                  <ul>
-                    <li>Sophia G</li>
-                  </ul>
-                </li>
-                <li>Thomas Wootton High School
-                  <ul>
-                    <li>Ethan H, Max S, Andrea C, Anthony H, Charles X, Erica W, Katherine Y, Kyle L, Patrick L, Alvin W, Jason Y</li>
-                  </ul>
-                </li>
-                <li>Winston Churchill High School
-                  <ul>
-                    <li>Kelly W, Yingchen L, Lingyufei L, Lea H, Anne Y, Evan D, Emily Y</li>
-                  </ul>
-                </li>
-                <li>Urbana High School
-                  <ul>
-                    <li>Jerry L</li>
-                  </ul>
-                </li>
-              </ul>
+    <section class="team">
+        <a href="holtonarms.html" class="bio-link">
+            <div class="team-member">
+                <img src="photos\hotlon-arms school.jpg" alt="Holton-Arms School">
+                <h2>Holton-Arms School</h2>
             </div>
+        </a>
+        
+        <a href="montgomeryblair.html" class="bio-link">
+          <div class="team-member">
+              <img src="photos\montgomeryblair.jpg" alt="Montgomery Blair High School">
+              <h2>Montgomery Blair HS</h2>
           </div>
-        </div>
-      </div>
+        </a>
+
+        <a href="thomaswootton.html" class="bio-link">
+          <div class="team-member">
+              <img src="photos\thomaswootton.jpg" alt="Thomas Wootton High School">
+              <h2>Thomas Wootton HS</h2>
+          </div>
+        </a>
+
+        <a href="winstonchurchill.html" class="bio-link">
+          <div class="team-member">
+              <img src="photos\winstonchurchill.jpg" alt="Winston Churchill High School">
+              <h2>Winston Churchill HS</h2>
+          </div>
+        </a>
+
+        <a href="richardmontgomery.html" class="bio-link">
+          <div class="team-member">
+              <img src="photos\richardmontgomery.jpg" alt="Richard Montgomery High School">
+              <h2>Richard Montgomery HS</h2>
+          </div>
+        </a>
+
+        <a href="bullis.html" class="bio-link">
+          <div class="team-member">
+              <img src="photos/bullis.png" alt="Bullis School">
+              <h2>Bullis School</h2>
+          </div>
+        </a>
+
+        <a href="landon.html" class="bio-link">
+          <div class="team-member">
+              <img src="photos/landon.jpg" alt="Landon School">
+              <h2>Landon School</h2>
+          </div>
+        </a>
+
+        <a href="urbana.html" class="bio-link">
+          <div class="team-member">
+              <img src="photos/urbana.jpg" alt="Urbana High School">
+              <h2>Urbana HS</h2>
+          </div>
+        </a>
+
+        <a href="robertfrost.html" class="bio-link">
+          <div class="team-member">
+              <img src="photos/robertfrost.jpg" alt="Robert Frost Middle School">
+              <h2>Robert Frost MS</h2>
+          </div>
+        </a>
+
+        <a href="hoover.html" class="bio-link">
+          <div class="team-member">
+              <img src="photos/hoover.jpg" alt="Herbert Hoover Middle School">
+              <h2>Herbert Hoover MS</h2>
+          </div>
+        </a>
+    </section>
     <!-- Footer -->
     <div id="footer-placeholder">
 
@@ -87,8 +103,5 @@
     $("#footer-placeholder").load("footer.html");
     });
     </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
