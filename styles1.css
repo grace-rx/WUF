@@ -98,10 +98,16 @@ footer .social-media a:hover {
   color: #F8C8C6;
 }
 
+footer .social-media a img {
+  width: 24px;
+  height: 24px;
+}
+
 footer p {
   margin: 0;
   font-size: 0.9em;
 }
+
 
 /* Section Styles */
 .section {
@@ -168,7 +174,7 @@ footer p {
   border-radius: 10px;
 }
 
-.program-box h3 {
+.program-box h4 {
   margin-top: 0;
 }
 
@@ -179,6 +185,7 @@ footer p {
 .bg-blue { background-color: #FFD0D1; }
 .bg-red { background-color: #FFD8B9; }
 .bg-green { background-color: #D9F3FE ; }
+.bg-yellow { background-color: #FFF2B3; }
 
 .black-link a {
   color: black;
