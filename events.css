@@ -117,7 +117,7 @@ section .events ul li:hover .time {
 	background: #FFF5EB;
 }
 
-/* Media query for screens less than 768px */
+
 @media (max-width: 768px) {
     section {
         flex-direction: column;
@@ -125,7 +125,7 @@ section .events ul li:hover .time {
 
     section .leftBox,
     section .events {
-        width: 100%; /* Stack sections vertically */
+        width: 100%; 
         padding: 20px;
     }
 

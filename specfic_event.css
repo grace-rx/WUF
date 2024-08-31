@@ -16,7 +16,8 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
-    max-width: 800px;
+    flex-direction: column;
+    max-width: 90%;
     width: 100%;
     overflow: hidden;
     animation: fadeIn 1s ease-in-out;
@@ -32,19 +33,21 @@ body {
 }
 
 .event-name {
-    font-size: 2.5em;
+    font-size: 2em; 
     color: #333;
     margin-bottom: 20px;
+    text-align: center; 
 }
 
 .event-details {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    text-align: center; 
 }
 
 .event-details p {
-    margin: 5px 60px;
+    margin: 5px 20px; 
     color: #555;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .signup-button button {
@@ -63,14 +66,28 @@ body {
 }
 
 .event-image img {
-    width: 340px;
-    height: 450px;
+    width: 100%; 
+    max-width: 300px; 
+    height: auto;
     object-fit: cover;
 }
 
 .event-details i {
     color: #4EA1D3;
     margin-right: 8px;  
+}
+
+
+@media (min-width: 768px) {
+    .container-eventdetails {
+        flex-direction: row; 
+        max-width: 800px;
+    }
+
+    .event-details p {
+        margin: 5px 40px; 
+        font-size: 1.1em;
+    }
 }
 
 @keyframes fadeIn {
