@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 130vh;
+    min-height: 100vh; /* Changed height to min-height */
     background-color: #f0f0f0;
     margin: 0;
 }
@@ -15,7 +15,7 @@ body {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     max-width: 400px;
-    width: 100%;
+    width: 90%; /* Adjusted to 90% to ensure it fits well on mobile */
 }
 
 .contact-form h1 {
@@ -40,7 +40,7 @@ body {
 .contact-form button {
     width: 100%;
     padding: 10px;
-    background-color: #4EA1D3;;
+    background-color: #4EA1D3;
     border: none;
     border-radius: 3px;
     color: white;
@@ -59,7 +59,7 @@ body {
 }
 
 .container-contact {
-    width: 90%;
+    width: 95%;
     max-width: 800px;
     margin: 20px auto;
     background: white;
@@ -67,6 +67,25 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     animation: fadeIn 1s ease-in-out;
+}
+
+@media (max-width: 600px) {
+    .contact-form {
+        padding: 15px;
+    }
+
+    .contact-form h1 {
+        font-size: 20px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 8px;
+    }
+
+    .contact-form button {
+        font-size: 14px;
+    }
 }
 
 @keyframes fadeIn {
