@@ -24,7 +24,7 @@
 			left floating section */
 		section .leftBox .content {
 			color: #fff;
-			background: rgba(0, 0, 0, 0.5);
+			background: #D1B6B1;
 			padding: 40px;
 			transition: .5s;
 		}
@@ -32,7 +32,7 @@
 		/* Styling the hover effect 
 			of left floating section */
 		section .leftBox .content:hover {
-			background: #6474E5;
+			background: #FFF5EB;
 		}
 
 		/* Styling the header of left 
@@ -56,7 +56,7 @@
 			position: relative;
 			width: 50%;
 			height: 100%;
-			background: rgba(0, 0, 0, 0.5);
+			background: #ECCFCF;
 			float: right;
 			box-sizing: border-box;
 		}
@@ -75,7 +75,7 @@
 		/* Styling the lists of the event section */
 		section .events ul li {
 			list-style: none;
-			background: #fff;
+			background: #D1B6B1;
 			box-sizing: border-box;
 			height: 200px;
 			margin: 50px 0;
@@ -85,7 +85,7 @@
 		section .events ul li .time {
 			position: relative;
 			padding: 20px;
-			background: #262626;
+			background: #D1B6B1; 
 			box-sizing: border-box;
 			width: 30%;
 			height: 110%;
@@ -97,7 +97,7 @@
 		/* Styling the hover effect
 			of events section */
 		section .events ul li:hover .time {
-			background: #6474E5;
+			background: #FFF5EB;
 		}
 
 		/* Styling the header of time 
