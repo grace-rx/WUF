@@ -24,7 +24,7 @@
 			left floating section */
 		section .leftBox .content {
 			color: #fff;
-			background: #D1B6B1;
+			background: rgba(0, 0, 0, 0.5);
 			padding: 40px;
 			transition: .5s;
 		}
@@ -32,7 +32,7 @@
 		/* Styling the hover effect 
 			of left floating section */
 		section .leftBox .content:hover {
-			background: #FFF5EB;
+			background: #6474E5;
 		}
 
 		/* Styling the header of left 
@@ -56,7 +56,7 @@
 			position: relative;
 			width: 50%;
 			height: 100%;
-			background: #ECCFCF;
+			background: rgba(0, 0, 0, 0.5);
 			float: right;
 			box-sizing: border-box;
 		}
@@ -75,20 +75,20 @@
 		/* Styling the lists of the event section */
 		section .events ul li {
 			list-style: none;
-			background: #D1B6B1;
+			background: #fff;
 			box-sizing: border-box;
 			height: 200px;
-			margin: 15px 0;
+			margin: 50px 0;
 		}
 
 		/* Styling the time class of events section */
 		section .events ul li .time {
 			position: relative;
 			padding: 20px;
-			background: #D1B6B1 
+			background: #262626;
 			box-sizing: border-box;
 			width: 30%;
-			height: 100%;
+			height: 110%;
 			float: left;
 			text-align: center;
 			transition: .5s;
@@ -97,7 +97,7 @@
 		/* Styling the hover effect
 			of events section */
 		section .events ul li:hover .time {
-			background: #FFF5EB;
+			background: #6474E5;
 		}
 
 		/* Styling the header of time 
@@ -127,7 +127,7 @@
 			background: #fff;
 			box-sizing: border-box;
 			width: 70%;
-			height: 100%;
+			height: 110%;
 			float: left;
 		}
 
@@ -155,7 +155,7 @@
 			display: inline-block;
 			text-decoration: none;
 			padding: 10px 15px;
-			border: 1.5px solid;
+			border: 1.5px solid #262626;
 			margin-top: 8px;
 			font-size: 18px;
 			transition: .5s;
