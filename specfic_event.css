@@ -19,7 +19,7 @@ body {
     flex-direction: column; /* Stack items vertically by default */
     max-width: 90%; /* Adjust width to fit smaller screens */
     width: 100%;
-    overflow: hidden;
+    overflow: auto;
     animation: fadeIn 1s ease-in-out;
 }
 
