@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" type="image/x-icon" href="/photos/favicon.ico">
+    <link rel="stylesheet" href="contact_us.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet" >
+    <link href="styles1.css" rel="stylesheet">
+    <link href="contact_us.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+    $(function(){
+    $("#nav-placeholder").load("navbar.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
+    <div class="contact-form container-contact">
+        <h1>Contact Us</h1>
+        <form id="contactForm" action="https://formsubmit.co/weunitedfoundation.md@gmail.com" method="POST">
+            <input type="hidden" name="_next" value="https://weunitedfoundation.net/thankyou.html">
+            <label for="name"><i class="fas fa-user"></i> Name</label>
+            <input type="text" name="name" required>
+
+            <label for="email"><i class="fas fa-envelope"></i> Email</label>
+            <input type="email" name="email" required>
+
+            <label for="message"><i class="fas fa-comment"></i> Message</label>
+            <textarea name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+</div>
+<div class="section bg-color-0">
+  <h2 class="text-center">Get in Touch</h2>
+  <p class="text-center">Email: weunitedfoundation.md@gmail.com </p>
+</div>
+</div>
+
+    <!-- Footer -->
+    <div id="footer-placeholder">
+
+    </div>
+
+
+    <script>
+    $(function(){
+    $("#footer-placeholder").load("footer.html");
+    });
+    </script>
+
+
+</body>
+</html>
